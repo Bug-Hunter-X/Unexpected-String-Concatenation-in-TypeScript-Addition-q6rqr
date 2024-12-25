@@ -1,0 +1,1 @@
+This code demonstrates a subtle issue with type inference in TypeScript.  When adding a number and a string, TypeScript infers the type to be string, resulting in unexpected string concatenation rather than the expected numerical addition. This can lead to difficult-to-debug runtime errors.  The solution shows how type checking can be enforced for safer code.
